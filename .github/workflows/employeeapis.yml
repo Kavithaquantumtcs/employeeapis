@@ -43,7 +43,7 @@ jobs:
       # Run Collection
       - name: Run Collection 
         run: |
-          newman run "Api/EmployeeAPIS.json" -r htmlextra --reporter-htmlextra-export SampleArtifact/report.html
+          newman run "Api/EmployeeAPIS.json" -r htmlextra --reporter-htmlextra-export SampleArtifact/report.html --verbose
 
 
       # Publish the Report
